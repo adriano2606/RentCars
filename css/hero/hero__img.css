@@ -1,0 +1,12 @@
+.hero__img {
+    display: block;
+    min-height: calc(100vh - 7rem);
+    max-width: 50%;
+    display: flex;
+}
+
+.hero__img1 {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

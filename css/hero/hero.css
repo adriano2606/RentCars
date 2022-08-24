@@ -1,0 +1,31 @@
+.hero {
+    min-height: calc(100vh - 7rem);
+    position: relative;
+}
+
+.hero .container{
+    display: flex;
+}
+
+.hero__colorshape {
+    background-color: var(--cor1);
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: -100;
+}
+
+@media (min-width:0px) and (max-width: 610px) {
+    .hero__img1 {
+        display: none;
+    }
+    .hero__img {
+        width: 0px;
+        height: 0px;
+    }
+    .hero__txt {
+        max-width: 100%;
+    }
+}
+
