@@ -35,7 +35,7 @@
         align-items: center;
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 7rem;
         background-color: var(--cor1);
         width: 100%;
         transition: 0.3s;
