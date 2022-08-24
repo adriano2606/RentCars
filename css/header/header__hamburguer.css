@@ -9,7 +9,7 @@
     width: 2.5rem;
     height: 0.3rem;
     margin: 0.5rem auto;
-    background-color: #FFFFFF;
+    background-color: var(--cor3);
 }
 
 @media (max-width: 773px) {
@@ -39,6 +39,8 @@
         background-color: var(--cor1);
         width: 100%;
         transition: 0.3s;
+        z-index: 1000;
+
     }
     
     .header__nav.active {

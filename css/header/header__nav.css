@@ -7,8 +7,12 @@
 
 .nav__link{
     text-decoration: none;
-    color: white;
-    transition: 0.3s;
+    color: var(--cor3);
+    transition: 0.2s;
+}
+
+.nav__link:hover {
+    color: var(--cor1);
 }
 
 .nav__item {

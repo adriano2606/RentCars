@@ -11,7 +11,7 @@
     font-family: var(--fontes);
     padding: 0.6rem 1.5rem;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
     border-radius: 20px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .signin__button{
-    border: 0.1rem solid white;
+    border: 0.1rem solid var(--cor1);
     background-color: white;
     color: var(--cor1);
     margin-right: 0.7rem;
