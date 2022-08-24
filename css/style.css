@@ -90,13 +90,30 @@ body {
 .hero__txt-main {
     font-size: 4.5rem;
     font-weight: bold;
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
     color: var(--cor3)
 }
 
 .hero__txt-sub {
     line-height: 2.5rem;
-    color: #FFFFFF
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+}
+
+.hero__txt-button {
+    width: 50%;
+    height: 4rem;
+    border-radius: 10px;
+    border-style: none;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    font-family: var(--fontes);
+    font-size: 1.6rem;
+    transition: ease-in-out 0.2s;
+}
+
+.hero__txt-button:hover{
+    transform: scale(1.1);
 }
 
 .hero__img {
@@ -114,7 +131,7 @@ body {
 
 .hero__colorshape {
     background-color: var(--cor1);
-    height: 45%;
+    height: 50%;
     width: 100%;
     position: absolute;
     bottom: 0px;
