@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+    --cor1: rgb(255, 187, 0);
+    --cor2: #e4e4e4;
+    --fontes: Montserrat, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 65.5%;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* General settings for mobile */
+@media (min-width: 0px) and (max-width: 425px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav__link{
+        padding: 0rem 5rem;
+    }
+}
+
+/* Mobile P */
+@media (min-width: 0px) and (max-width: 320px) {
+    :root {
+        font-size: 50%;
+    }
+}
+
+/* Mobile M */
+@media (min-width: 321px) and (max-width: 375px ) {
+    :root {
+        font-size: 55%;
+    }
+}
+
+/* Mobile G */
+@media (min-width: 376px) and (max-width: 425px ) {
+    :root {
+        font-size: 60%;
+    }
+}
