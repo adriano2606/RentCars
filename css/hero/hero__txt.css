@@ -29,6 +29,7 @@
     font-family: var(--fontes);
     font-size: 1.6rem;
     transition: ease-in-out 0.2s;
+    cursor: pointer;
 }
 
 .hero__txt-button:hover{
